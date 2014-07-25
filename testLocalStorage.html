@@ -1,0 +1,47 @@
+<html>
+<head>
+		<script type="text/javascript" src="functions.js"></script>	
+</head>
+<body>
+	<form id="frmCadastre" >
+		<ul>
+			<li>
+				<label for="txtID">ID:</label>
+				<input type="text" id="txtID"/>
+			</li>
+			<li>
+				<label for="txtName">Name:</label>
+				<input type="text" id="txtName"/>
+			</li>
+			<li>
+				<label for="txtPhone">Phone:</label>
+				<input type="text" id="txtPhone"/>
+			</li>
+			<li>
+				<label for="txtEmail">Email:</label>
+				<input type="text" id="txtEmail"/>
+			</li>
+				
+			<li>
+				<input type="button" value="list" onclick="List()"/>
+			</li>
+			
+			<li>
+				<button type="button" onclick="Add()">Add</button>
+			</li>
+			
+			<li>
+				<button type="button" onclick="Delete()">Delete</button>
+			</li>
+			
+			<li>
+				<button type="button" onclick="Edit()">Edits</button>
+			</li>
+		</ul>
+	</form>
+
+	<table id="tblList">
+
+	</table>
+</body>
+</html>
