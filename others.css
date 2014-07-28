@@ -1,0 +1,152 @@
+html{
+	background-color:#FFF5EE;
+	
+}
+
+.topMenu {
+		background-color: #999999;
+}
+
+#topMenuBorder {
+	width: 100%;
+	height: 20%;	
+	margin: 0;
+	padding: 0;
+	background-color: #1f262c;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+#caracterIcon {
+	width: 5%;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+	vertical-align:middle;
+}
+
+#caracterIcon img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#userName {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#scoreWrapper{
+	float:right;
+	margin-right: 2%;
+}
+
+#score {
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#scoreIcon {
+	width:auto;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+#scoreIcon img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	adding: 0;
+	display: inline-block;
+	color: #FFFFFF;
+}
+
+#scoreIcon i {
+	color: #FFFFFF;
+}
+#scoreIcon img{
+	height: 50px;
+	width: 50px;
+}
+
+#navbar {
+	display:inline-block;
+	text-align: center;
+	width:1272px;
+	height: 50px;
+	background: #F88158;
+	font: bold 23px ,Verdana, sans-serif;
+}
+
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	float: none;
+	list-style-type: none;
+}
+
+#navbar li {
+	padding: 0 2px 0 0;
+	margin: 1px;
+	float: right;
+	border-right: 2px solid white;
+	
+}
+a:hover{background-color: #C04000;}
+
+#navbar ul li a:link, #navbar ul li a:active, #navbar ul li a:visited {
+	
+	padding: 0 130px;
+	line-height: 50px;
+	color: white;
+	text-decoration: none;
+}
+#data{
+	margin-left:300px;
+	margin-right:300px;
+	margin-top:100px;
+}
+
+.center{
+	margin-left:550px;
+	margin-top: 120px;
+	width: 180px;
+	height: 280px;
+}
+.purchaseSum{
+	/*background-color:#F88158;*/
+	font: bold 50px ,Verdana, sans-serif;
+}
+#InputSum{
+	background-color:#41A317;
+	margin-left: 230px;
+}
+#footer{
+	clear: both;
+	position: relative;
+	bottom: -20px;
+	margin-top: 150px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	height: 40px;
+	background-color: #F88158;
+	
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li{
+	display:inline-block;
+	margin-right:30px;
+	margin-left:30px;
+}
